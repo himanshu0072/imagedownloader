@@ -5,10 +5,8 @@ import "./style/style.css";
 function App() {
   return (
     <>
-      <div className="slider-thumb">
-        <Title />
-        <MainDownloader />
-      </div>
+      <Title />
+      <MainDownloader />
     </>
   );
 }

@@ -3,22 +3,6 @@ body {
    background: linear-gradient(90deg,#e52e71,#ff8a00);
 
 }
-
-.slider-thumb::before {
-  position: absolute;
-  content: "";
-  left: 80%;
-  top: 60%;
-  width: 450px;
-  height: 450px;
-  background: #17141d;
-  border-radius: 62% 47% 82% 35% / 45% 45% 80% 66%;
-  will-change: border-radius, transform, opacity;
-  animation: sliderShape 5s linear infinite;
-  display: block;
-  z-index: -1;
-  -webkit-animation: sliderShape 5s linear infinite;
-}
 @keyframes sliderShape{
   0%,100%{
   border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
